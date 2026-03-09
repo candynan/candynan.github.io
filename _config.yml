@@ -1,23 +1,20 @@
 # _config.yml
 
-# required, replace with your own information -----
-title: 120 Life
-author: Sara Gong
-description: > 
-  长期主义｜理性生活｜健康｜成长｜走向120岁的人生系统
+title: CandyNan · 120 Life
+description: 走向120岁的长期主义人生系统｜饮食·睡眠·运动·认知·女性成长
 baseurl: ""
+url: "https://candynan.github.io"
 
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  
-#---------------------------------------------------
+# 主题极简风格（Dan Koe 同款干净感）
+theme: minima
+minima:
+  skin: auto
+  social_links:
+    - title: GitHub
+      url: https://github.com/candynan
 
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-
+# 文字排版
+markdown: kramdown
+highlighter: rouge
+paginate: 10
+paginate_path: "/page/:num/"
