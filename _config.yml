@@ -1,10 +1,10 @@
 # _config.yml
 
 # required, replace with your own information -----
-title: Hello for Github Pages
+title: 120 Life
 author: Sara Gong
 description: > 
-  A minimalist template for designing a personal GitHub Pages website - without typing a single line of code.
+  长期主义｜理性生活｜健康｜成长｜走向120岁的人生系统
 baseurl: ""
 
 plugins:
